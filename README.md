@@ -87,6 +87,12 @@ Event-driven and webhook contracts.
 
 - [Actuallycare Com Webhooks](https://apis.io/asyncapis/actuallycare-com/actuallycare-com-webhooks/)
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [actuallycare-com-mcp.yml](https://apis.io/servers/actuallycare-com/actuallycare-com-mcp-yml/)
+
 #### JSON Schema (6)
 
 The data models the API reads and writes.
@@ -114,20 +120,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Actuallycare Com Authentication](https://apis.io/security/actuallycare-com/actuallycare-com-authentication/)
-- [Actuallycare Com Domain Security](https://apis.io/security/actuallycare-com/actuallycare-com-domain-security/)
+- [ActuallyCare Authentication](https://apis.io/security/actuallycare-com/actuallycare-com-authentication/)
+- [ActuallyCare Domain Security](https://apis.io/security/actuallycare-com/actuallycare-com-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Actuallycare Com Plans Pricing](https://apis.io/plans/actuallycare-com/actuallycare-com-plans-pricing/)
+- [ActuallyCare Plans Pricing](https://apis.io/plans/actuallycare-com/actuallycare-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Actuallycare Com Rate Limits](https://apis.io/rate-limits/actuallycare-com/actuallycare-com-rate-limits/)
+- [ActuallyCare Rate Limits](https://apis.io/rate-limits/actuallycare-com/actuallycare-com-rate-limits/)
 
 ## Where to find this API
 
@@ -144,33 +150,33 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 62.6** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 57.2** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
+| Discoverability | 64.3 |
 | Contract quality | 64.9 |
-| Contract governance | 79.1 |
-| Operational transparency | 60.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 61.9 |
 | Developer ergonomics | 51.7 |
-| Access clarity | 60.0 |
+| Access clarity | 66.0 |
 
-**Agent readiness 31.8** — agent-ready
+**Agent readiness 26.2** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | documented (partial credit) |
-| Event Surface Described | unknown |
+| Event Surface Described | yes |
 | Agent Skills | unknown |
-| Well Known Catalog | yes |
+| Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -180,6 +186,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 24.5** — AI & Biometrics
 
